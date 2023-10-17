@@ -44,9 +44,6 @@ The application should now be running on \`http://localhost:3000\` (or whichever
 Parameters:
 - \`lat\` (optional): Latitude coordinate
 - \`lon\` (optional): Longitude coordinate
-- \`city\` (optional): City name
-- \`state\` (optional): State or province name
-- \`zip\` (optional): Zip code
 
 Responses will include current temperature, weather conditions, and a generalized description of the temperature and weather conditions.
 
