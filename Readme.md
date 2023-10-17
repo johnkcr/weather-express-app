@@ -5,8 +5,6 @@ This is an Express.js-based application that interfaces with an external service
 ## Features
 
 - **Geographical Coordinates**: Provide latitude and longitude to get specific weather details.
-- **City and State**: Input the name of a city and its state/province for relevant weather information.
-- **Zip Code**: Just have a zip code? No problem. Enter it and get the weather!
 - **API Documentation**: Comprehensive API documentation available at \`/api/docs\`.
 
 ## Getting Started
@@ -19,24 +17,24 @@ This is an Express.js-based application that interfaces with an external service
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone https://github.com/johnkcr/weather-express-app.git
-\`\`\`
+```
 
 2. Navigate to the project directory:
-\`\`\`bash
+```bash
 cd weather-express-app
-\`\`\`
+```
 
 3. Install the required dependencies:
-\`\`\`bash
+```bash
 yarn install
-\`\`\`
+```
 
 4. Start the server:
-\`\`\`bash
+```bash
 yarn start
-\`\`\`
+```
 
 The application should now be running on \`http://localhost:3000\` (or whichever port you've configured).
 
