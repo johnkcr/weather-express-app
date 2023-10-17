@@ -34,3 +34,6 @@ app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.listen(appConfig.port, () => {
   console.log(`Server started on http://localhost:${appConfig.port}`);
 });
+
+
+export default app;

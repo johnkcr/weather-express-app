@@ -27,6 +27,21 @@ const router = Router();
  *         required: false
  *         description: Longitude coordinate
  *         type: number
+ *       - in: query
+ *         name: city
+ *         required: false
+ *         description: City name
+ *         type: string
+ *       - in: query
+ *         name: state
+ *         required: false
+ *         description: State or province name
+ *         type: string
+ *       - in: query
+ *         name: zip
+ *         required: false
+ *         description: Zip code
+ *         type: string
  *     responses:
  *       '200':
  *         description: Successful retrieval of weather data.
